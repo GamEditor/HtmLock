@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HtmLock sample</title>
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: system-ui;
+        }
+
+        span.key {
+            background-color: lightgray;
+            border: 1px solid darkgray;
+            padding: 0px 1px;
+            border-radius: 4px;
+        }
+    </style>
+
+    You only need to add <span class="key">HtmLock.js</span> reference to your document(s)!
+    <div>
+        <ul>
+            <li>You can't save this page with <span class="key">Ctrl+S</span></li>
+            <li>You can't select all with <span class="key">Ctrl+A</span></li>
+            <li>You can't print with <span class="key">Ctrl+P</span></li>
+            <li>Right Click menu won't be shown</li>
+            <li>Opening Developer Tools with these key combinations:
+                <span class="key">F12</span>,
+                <span class="key">Ctrl+Shift+C</span>,
+                <span class="key">Ctrl+Shift+I</span>,
+                <span class="key">Ctrl+Shift+J</span>,
+                <span class="key">Ctrl+Shift+K</span> are disabled.
+            </li>
+            <li>Viewing Page Source by pressing <span class="key">Ctrl+U</span> is disabled</li>
+        </ul>
+    </div>
+
+    <script src="HtmLock.js"></script>
+</body>
+
+</html>
